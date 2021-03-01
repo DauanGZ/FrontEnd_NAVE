@@ -10,6 +10,8 @@ p{
 }
 
 .divEsquerda{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(201, 200, 200);
 }
 
