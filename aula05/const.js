@@ -1,0 +1,4 @@
+/*
+const teste;
+teste = true;
+*/
