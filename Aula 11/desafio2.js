@@ -25,7 +25,7 @@ students.forEach((estudante) => {
 var bolsistas = [];
 
 students.forEach((estudante, posicao) => {
-  if (estudante.scholarship == true) {
+  if (estudante.scholarship) {
     bolsistas.push(students.slice(posicao, posicao + 1));
   }
 });
