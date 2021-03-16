@@ -1,7 +1,7 @@
 // Desafio 2 - aula 16
 
 // 1.
-const imprime = (parametros) => {
+const imprime = (...parametros) => {
     console.log(...parametros)
   };
   
