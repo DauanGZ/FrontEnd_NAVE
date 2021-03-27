@@ -1,0 +1,35 @@
+.comment {
+  max-width: 380px;
+  padding: 10px;
+  margin: 10px;
+  background: rgb(134, 156, 255);
+  border-radius: 8px;
+  
+}
+.comment .email {
+  font-size: 12px;
+  padding: 20px;
+  text-align: right;
+}
+.comment .name {
+  text-transform:uppercase;
+  
+}
+
+.comment .comment {
+    text-align: justify;
+  }
+
+@media (max-width: 1212px) {
+  .comment {
+    
+    max-width: 460px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .comment {
+    
+    max-width: 720px;
+  }
+}
