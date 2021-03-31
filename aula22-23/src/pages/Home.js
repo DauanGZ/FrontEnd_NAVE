@@ -8,23 +8,25 @@ export default function Home () {
       <header className="App-header">
 
         <h1>
-          D E S A F I O A U L A 2 2
+          DESAFIOS Nave.rs
         </h1>
           
         <h2>
-          <Link className="link" to="/comments">COMENTÁRIOS</Link>
+          <Link className="link" to="/comments">Comments </Link>
+          |
+          <Link className="link" to="/create-post"> Create Post</Link>
         </h2>
 
-        <div className="socialMedias">
+        {/*<div className="socialMedias">
           by
-          <a href='https://github.com/DauanGZ' target="_blank">
+          <a href="https://github.com/DauanGZ">
           Dauan
           </a>
           and
-          <a href='https://github.com/DarleiSchmegel' target="_blank">
+          <a href="https://github.com/DarleiSchmegel">
           Darlei
           </a>
-        </div>
+        </div>*/}
         
       </header>
     </div>
