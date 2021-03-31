@@ -12,7 +12,7 @@ export default function Home () {
         </h1>
           
         <h2>
-          <Link className="link" to="/comments">COMENTÁRIO</Link>
+          <Link className="link" to="/comments">COMENTÁRIOS</Link>
         </h2>
 
         <div className="socialMedias">
